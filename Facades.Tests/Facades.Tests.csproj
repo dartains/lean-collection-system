@@ -1,0 +1,17 @@
+<Project Sdk="MSTest.Sdk/3.4.1">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<IsPackable>false</IsPackable>
+		<AssemblyName>Havit.NewProjectTemplate.Facades.Tests</AssemblyName>
+		<RootNamespace>Havit.NewProjectTemplate.Facades.Tests</RootNamespace>
+		<PublishDir>obj\$(Configuration)\publish</PublishDir>
+		<EnableMSTestRunner>true</EnableMSTestRunner>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Facades\Facades.csproj" />
+	</ItemGroup>
+
+</Project>
